@@ -1,0 +1,16 @@
+body {
+  background-color: brown;
+}
+.hero {
+  color: blue;
+}
+
+.main > li .text {
+  color: rgb(206, 59, 59);
+}
+.main .textq {
+  color: aqua;
+}
+.main > .textw {
+  color: blue;
+}
