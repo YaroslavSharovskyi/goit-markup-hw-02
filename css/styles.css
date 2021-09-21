@@ -81,11 +81,16 @@ body {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
   text-align: center;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--hoover-color);
+}
+.btn:hover {
+  color: #188ce8;
 }
 
 /* Основное */
@@ -160,8 +165,10 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
-  text-align: center;
+  padding: 6px 22px;
+  border: none;
+  margin-right: 8px;
+  border-radius: 4px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
